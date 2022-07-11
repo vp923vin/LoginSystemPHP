@@ -1,0 +1,236 @@
+ERROR - 2022-07-06 03:48:14 --> Duplicate entry '' for key 'email'
+CRITICAL - 2022-07-06 03:48:14 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (\'\', \'\', \'\', \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (\'\', \'\', \'\', \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (\'\', \'\', \'\', \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (:first_name:, :last_name:, :phone:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(24): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->store()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 04:26:14 --> Invalid file: employee/edit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/edit.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('employee/edit', [], true)
+ 3 APPPATH\Controllers\Register.php(19): view('employee/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 04:33:26 --> Duplicate entry '' for key 'email'
+CRITICAL - 2022-07-06 04:33:26 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (\'\', \'\', \'\', \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (\'\', \'\', \'\', \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (\'\', \'\', \'\', \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (:first_name:, :last_name:, :phone:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(24): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->store()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 04:35:10 --> Duplicate entry '' for key 'email'
+CRITICAL - 2022-07-06 04:35:10 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (\'\', \'\', \'\', \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (\'\', \'\', \'\', \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (\'\', \'\', \'\', \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (:first_name:, :last_name:, :phone:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(24): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->store()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 04:41:59 --> Duplicate entry '' for key 'email'
+CRITICAL - 2022-07-06 04:41:59 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (\'\', \'\', \'\', \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (\'\', \'\', \'\', \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (\'\', \'\', \'\', \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (:first_name:, :last_name:, :phone:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(24): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->store()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 04:54:19 --> Duplicate entry 'as@gmail.com' for key 'email'
+CRITICAL - 2022-07-06 04:54:19 --> Duplicate entry 'as@gmail.com' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `users` SET `first_name` = \'as\', `last_name` = \'as\', `phone` = \'33245454\', `email` = \'as@gmail.com\', `password` = \'1234\'
+WHERE `users`.`id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `first_name` = \'as\', `last_name` = \'as\', `phone` = \'33245454\', `email` = \'as@gmail.com\', `password` = \'1234\'
+WHERE `users`.`id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `first_name` = \'as\', `last_name` = \'as\', `phone` = \'33245454\', `email` = \'as@gmail.com\', `password` = \'1234\'
+WHERE `users`.`id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `first_name` = :first_name:, `last_name` = :last_name:, `phone` = :phone:, `email` = :email:, `password` = :password:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Register.php(32): CodeIgniter\Model->update('2', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->update('2')
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 06:56:33 --> Column 'first_name' cannot be null
+CRITICAL - 2022-07-06 06:56:33 --> Column 'first_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (:first_name:, :last_name:, :phone:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(24): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->store()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 06:58:32 --> Column 'first_name' cannot be null
+CRITICAL - 2022-07-06 06:58:32 --> Column 'first_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (:first_name:, :last_name:, :phone:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(24): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->store()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 07:10:25 --> Column 'first_name' cannot be null
+CRITICAL - 2022-07-06 07:10:25 --> Column 'first_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (:first_name:, :last_name:, :phone:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(24): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->store()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 07:11:36 --> Column 'first_name' cannot be null
+CRITICAL - 2022-07-06 07:11:36 --> Column 'first_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (:first_name:, :last_name:, :phone:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(24): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->store()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 07:12:04 --> Column 'first_name' cannot be null
+CRITICAL - 2022-07-06 07:12:04 --> Column 'first_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (:first_name:, :last_name:, :phone:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(24): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->store()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 07:13:38 --> Column 'first_name' cannot be null
+CRITICAL - 2022-07-06 07:13:38 --> Column 'first_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (:first_name:, :last_name:, :phone:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(24): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->store()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 07:17:42 --> Column 'first_name' cannot be null
+CRITICAL - 2022-07-06 07:17:42 --> Column 'first_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (:first_name:, :last_name:, :phone:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(24): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->store()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 07:18:14 --> Column 'first_name' cannot be null
+CRITICAL - 2022-07-06 07:18:14 --> Column 'first_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'xs@gmail.com\', \'xsx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'xs@gmail.com\', \'xsx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'xs@gmail.com\', \'xsx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (:first_name:, :last_name:, :phone:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(24): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->store()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 07:20:26 --> Column 'first_name' cannot be null
+CRITICAL - 2022-07-06 07:20:26 --> Column 'first_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (NULL, NULL, NULL, \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `phone`, `email`, `password`) VALUES (:first_name:, :last_name:, :phone:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(24): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->store()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

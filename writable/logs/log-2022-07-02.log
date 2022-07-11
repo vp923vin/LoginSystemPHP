@@ -1,0 +1,134 @@
+ERROR - 2022-07-02 00:34:48 --> Unknown column 'Activation_date' in 'field list'
+CRITICAL - 2022-07-02 00:34:48 --> Unknown column 'Activation_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`Name`, `Mobile`, `Email`, `Password`, `Unique_id`, `Activation_date`) VALUES (\'vipin\', \'9345673232\', \'vipinp923@gmail.com\', \'$2y$10$vU/4iObHmdXsvqr9WZ78zOc.BF4I87blIC3tS3rL1/uUmcrqkbkry\', \'36babfa10c962dd22916cb56ba03a1a0\', \'2022-07-02 12:34:48\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`Name`, `Mobile`, `Email`, `Password`, `Unique_id`, `Activation_date`) VALUES (\'vipin\', \'9345673232\', \'vipinp923@gmail.com\', \'$2y$10$vU/4iObHmdXsvqr9WZ78zOc.BF4I87blIC3tS3rL1/uUmcrqkbkry\', \'36babfa10c962dd22916cb56ba03a1a0\', \'2022-07-02 12:34:48\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`Name`, `Mobile`, `Email`, `Password`, `Unique_id`, `Activation_date`) VALUES (\'vipin\', \'9345673232\', \'vipinp923@gmail.com\', \'$2y$10$vU/4iObHmdXsvqr9WZ78zOc.BF4I87blIC3tS3rL1/uUmcrqkbkry\', \'36babfa10c962dd22916cb56ba03a1a0\', \'2022-07-02 12:34:48\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`Name`, `Mobile`, `Email`, `Password`, `Unique_id`, `Activation_date`) VALUES (:Name:, :Mobile:, :Email:, :Password:, :Unique_id:, :Activation_date:)', [...], false)
+ 5 APPPATH\Models\RegisterModel.php(7): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Register.php(45): App\Models\RegisterModel->createUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-02 00:41:37 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-07-02 00:47:01 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-07-02 00:50:14 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-07-02 00:53:33 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-07-02 01:00:16 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-07-02 01:05:56 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-07-02 01:12:26 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-07-02 01:15:24 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-07-02 01:16:48 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-07-02 01:16:48 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\LOGIN\app\Controllers\Register.php on line 76
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\Register.php(76): view('Register_view', 'Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.<br /><pre>Date: Sat, 2 Jul 2022 01:16:46 -0500
+From: &quot;Info&quot; &lt;info@companyname.in&gt;
+Return-Path: &lt;info@companyname.in&gt;
+Reply-To: &lt;info@companyname.in&gt;
+User-Agent: CodeIgniter
+X-Sender: info@companyname.in
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;62bfe2ce828fe2.24983895@companyname.in&gt;
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</pre>')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 01:42:29 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\LOGIN\app\Controllers\Register.php on line 76
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\Register.php(76): view('Register_view', '220 smtp.gmail.com ESMTP ji9-20020a170903324900b0015e8d4eb25asm16658202plb.164 - gsmtp
+<br /><pre>hello: 250-smtp.gmail.com at your service, [2401:4900:1c19:a4ac:f9b7:5525:792e:5e22]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ji9-20020a170903324900b0015e8d4eb25asm16658202plb.164 - gsmtp
+<br />Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Sat, 2 Jul 2022 01:42:27 -0500
+To: vipinp923@gmail.com
+From: &quot;Info&quot; &lt;info@companyname.in&gt;
+Return-Path: &lt;info@companyname.in&gt;
+Subject: =?UTF-8?Q?Account=20Activation=20Link=20-=20COMPANY=20NAME?=
+Reply-To: &lt;info@companyname.in&gt;
+User-Agent: CodeIgniter
+X-Sender: info@companyname.in
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;62bfe8d41f5e61.99777256@companyname.in&gt;
+Mime-Version: 1.0
+
+</pre>')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 01:44:18 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\LOGIN\app\Controllers\Register.php on line 76
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\Register.php(76): view('Register_view', '220 smtp.gmail.com ESMTP y3-20020a17090322c300b001618b70dcc9sm17101358plg.101 - gsmtp
+<br /><pre>hello: 250-smtp.gmail.com at your service, [2401:4900:1c19:a4ac:f9b7:5525:792e:5e22]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y3-20020a17090322c300b001618b70dcc9sm17101358plg.101 - gsmtp
+<br />Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Sat, 2 Jul 2022 01:44:16 -0500
+To: vipinp923@gmail.com
+From: &quot;Info&quot; &lt;info@companyname.in&gt;
+Return-Path: &lt;info@companyname.in&gt;
+Subject: =?UTF-8?Q?Account=20Activation=20Link=20-=20COMPANY=20NAME?=
+Reply-To: &lt;info@companyname.in&gt;
+User-Agent: CodeIgniter
+X-Sender: info@companyname.in
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;62bfe940efcbd5.32324175@companyname.in&gt;
+Mime-Version: 1.0
+
+</pre>')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 01:46:09 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\LOGIN\app\Controllers\Register.php on line 76
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\Register.php(76): view('Register_view', '220 smtp.gmail.com ESMTP t10-20020a17090a6a0a00b001e2f383110bsm5179183pjj.11 - gsmtp
+<br /><pre>hello: 250-smtp.gmail.com at your service, [2401:4900:1c19:a4ac:f9b7:5525:792e:5e22]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t10-20020a17090a6a0a00b001e2f383110bsm5179183pjj.11 - gsmtp
+<br />Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Sat, 2 Jul 2022 01:46:07 -0500
+To: vipinp923@gmail.com
+From: &quot;Info&quot; &lt;info@companyname.in&gt;
+Return-Path: &lt;info@companyname.in&gt;
+Subject: =?UTF-8?Q?Account=20Activation=20Link=20-=20COMPANY=20NAME?=
+Reply-To: &lt;info@companyname.in&gt;
+User-Agent: CodeIgniter
+X-Sender: info@companyname.in
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;62bfe9b00a8d35.55659392@companyname.in&gt;
+Mime-Version: 1.0
+
+</pre>')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

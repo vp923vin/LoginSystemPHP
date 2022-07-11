@@ -1,0 +1,182 @@
+CRITICAL - 2022-07-09 00:58:06 --> Undefined variable $validation
+in APPPATH\Views\Login_view.php on line 21.
+ 1 APPPATH\Views\Login_view.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\Login_view.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Login_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Login_view', [], true)
+ 5 APPPATH\Controllers\Login.php(42): view('Login_view', [])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 00:58:57 --> syntax error, unexpected token ";"
+in APPPATH\Views\Login_view.php on line 21.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Login_view', [], true)
+ 3 APPPATH\Controllers\Login.php(42): view('Login_view', [])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 00:59:27 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH\Views\Login_view.php on line 7.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(42): view('Login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 01:01:05 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH\Views\Login_view.php on line 7.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(43): view('Login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 01:01:19 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH\Views\Login_view.php on line 7.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(43): view('Login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 01:13:55 --> Undefined variable $validation
+in APPPATH\Views\Login_view.php on line 19.
+ 1 APPPATH\Views\Login_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\Login_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Login_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Login_view', [], true)
+ 5 APPPATH\Controllers\Login.php(43): view('Login_view', [])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 02:23:11 --> Undefined variable $passowrd
+in APPPATH\Controllers\Login.php on line 47.
+ 1 APPPATH\Controllers\Login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $passowrd', 'APPPATH\\Controllers\\Login.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 02:34:54 --> password_verify() expects exactly 2 arguments, 1 given
+in APPPATH\Controllers\Login.php on line 47.
+ 1 APPPATH\Controllers\Login.php(47): password_verify('1234q')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 02:54:56 --> hash() expects at least 2 arguments, 1 given
+in APPPATH\Controllers\Login.php on line 47.
+ 1 APPPATH\Controllers\Login.php(47): hash('123456')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 03:58:49 --> Undefined variable $hash
+in APPPATH\Controllers\Login.php on line 47.
+ 1 APPPATH\Controllers\Login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hash', 'APPPATH\\Controllers\\Login.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 04:00:55 --> Undefined variable $password
+in APPPATH\Models\RegisterModel.php on line 20.
+ 1 APPPATH\Models\RegisterModel.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $password', 'APPPATH\\Models\\RegisterModel.php', 20)
+ 2 APPPATH\Controllers\Login.php(44): App\Models\RegisterModel->verifyEmail('vp923@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-09 04:02:12 --> Unknown column 'email,password' in 'where clause'
+CRITICAL - 2022-07-09 04:02:12 --> Unknown column 'email,password' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `email`, `password`
+FROM `users`
+WHERE `email,password` = \'vp923@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `email`, `password`
+FROM `users`
+WHERE `email,password` = \'vp923@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `email`, `password`
+FROM `users`
+WHERE `email,password` = \'vp923@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `email`, `password`
+FROM `users`
+WHERE `email,password` = :email,password:', [...], false)
+ 5 APPPATH\Models\RegisterModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Login.php(44): App\Models\RegisterModel->verifyEmail('vp923@gmail.com', '123456')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 04:54:26 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 04:58:54 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 05:01:34 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 05:01:36 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 05:01:39 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 05:02:15 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Data.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Data.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Data')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Data')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Data', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 05:32:16 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Data.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Data.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Data')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Data')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Data', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 06:27:31 --> Call to undefined function form_open()
+in APPPATH\Views\Register_view.php on line 21.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Register_view', [], true)
+ 4 APPPATH\Controllers\Home.php(12): view('Register_view')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 06:28:24 --> Undefined variable $validation
+in APPPATH\Views\Register_view.php on line 28.
+ 1 APPPATH\Views\Register_view.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\Register_view.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Register_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Register_view', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('Register_view')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

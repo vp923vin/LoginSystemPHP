@@ -1,0 +1,39 @@
+CRITICAL - 2022-07-11 02:18:35 --> Cannot redeclare App\Controllers\Data::logout()
+in APPPATH\Controllers\Data.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-11 03:55:49 --> syntax error, unexpected token "return", expecting "function" or "const"
+in APPPATH\Controllers\Logout.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Logout.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Logout')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Logout')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Logout', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 03:57:19 --> Undefined variable $register
+in APPPATH\Views\Data_view.php on line 36.
+ 1 APPPATH\Views\Data_view.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $register', 'APPPATH\\Views\\Data_view.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Data_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Data_view', [], true)
+ 5 APPPATH\Controllers\Logout.php(5): view('Data_view')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Logout->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logout))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 03:57:23 --> Undefined variable $register
+in APPPATH\Views\Data_view.php on line 36.
+ 1 APPPATH\Views\Data_view.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $register', 'APPPATH\\Views\\Data_view.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Data_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Data_view', [], true)
+ 5 APPPATH\Controllers\Logout.php(5): view('Data_view')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Logout->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logout))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 04:41:22 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

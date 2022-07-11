@@ -1,0 +1,145 @@
+CRITICAL - 2022-07-01 01:13:06 --> syntax error, unexpected token "endif", expecting end of file
+in APPPATH\Views\Register_view.php on line 11.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Register_view', [], true)
+ 3 APPPATH\Controllers\Register.php(30): view('Register_view')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 01:15:49 --> Undefined variable $validation
+in APPPATH\Views\Register_view.php on line 10.
+ 1 APPPATH\Views\Register_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\Register_view.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Register_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Register_view', [], true)
+ 5 APPPATH\Controllers\Register.php(30): view('Register_view')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 01:16:17 --> Undefined variable $validation
+in APPPATH\Views\Register_view.php on line 10.
+ 1 APPPATH\Views\Register_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\Register_view.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Register_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Register_view', [], true)
+ 5 APPPATH\Controllers\Register.php(30): view('Register_view')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 01:16:20 --> Undefined variable $validation
+in APPPATH\Views\Register_view.php on line 10.
+ 1 APPPATH\Views\Register_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\Register_view.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Register_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Register_view', [], true)
+ 5 APPPATH\Controllers\Register.php(30): view('Register_view')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 01:16:23 --> Undefined variable $validation
+in APPPATH\Views\Register_view.php on line 10.
+ 1 APPPATH\Views\Register_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\Register_view.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Register_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Register_view', [], true)
+ 5 APPPATH\Controllers\Register.php(30): view('Register_view')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 01:16:28 --> Undefined variable $validation
+in APPPATH\Views\Register_view.php on line 10.
+ 1 APPPATH\Views\Register_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\Register_view.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Register_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Register_view', [], true)
+ 5 APPPATH\Controllers\Register.php(30): view('Register_view')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 01:17:13 --> Undefined variable $validation
+in APPPATH\Views\Register_view.php on line 10.
+ 1 APPPATH\Views\Register_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\Register_view.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Register_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Register_view', [], true)
+ 5 APPPATH\Controllers\Register.php(31): view('Register_view')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 01:17:16 --> Undefined variable $validation
+in APPPATH\Views\Register_view.php on line 10.
+ 1 APPPATH\Views\Register_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\Register_view.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Register_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Register_view', [], true)
+ 5 APPPATH\Controllers\Register.php(31): view('Register_view')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 01:17:38 --> Undefined variable $validation
+in APPPATH\Views\Register_view.php on line 10.
+ 1 APPPATH\Views\Register_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\Register_view.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Register_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Register_view', [], true)
+ 5 APPPATH\Controllers\Register.php(31): view('Register_view')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 01:19:00 --> Undefined variable $validation
+in APPPATH\Views\Register_view.php on line 10.
+ 1 APPPATH\Views\Register_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\Register_view.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Register_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Register_view', [], true)
+ 5 APPPATH\Controllers\Register.php(31): view('Register_view')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 01:36:14 --> Undefined variable $validation
+in APPPATH\Views\Register_view.php on line 18.
+ 1 APPPATH\Views\Register_view.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\Register_view.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Register_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Register_view', [], true)
+ 5 APPPATH\Controllers\Register.php(31): view('Register_view')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-01 07:16:04 --> Unknown column 'Activation_date' in 'field list'
+CRITICAL - 2022-07-01 07:16:04 --> Unknown column 'Activation_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`Name`, `Mobile`, `Email`, `Password`, `Unique_id`, `Activation_date`) VALUES (\'vipin\', \'8998989893\', \'vipinp923@gmail.com\', \'$2y$10$osQ9A5Vbf2VpVCqKwYGwT.dZO/3pRvYkkAq/TjtVgdkpAqXzqyKGe\', \'e6795e159ea24e0648557dc810da6671\', \'2022-07-01 07:16:04\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`Name`, `Mobile`, `Email`, `Password`, `Unique_id`, `Activation_date`) VALUES (\'vipin\', \'8998989893\', \'vipinp923@gmail.com\', \'$2y$10$osQ9A5Vbf2VpVCqKwYGwT.dZO/3pRvYkkAq/TjtVgdkpAqXzqyKGe\', \'e6795e159ea24e0648557dc810da6671\', \'2022-07-01 07:16:04\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`Name`, `Mobile`, `Email`, `Password`, `Unique_id`, `Activation_date`) VALUES (\'vipin\', \'8998989893\', \'vipinp923@gmail.com\', \'$2y$10$osQ9A5Vbf2VpVCqKwYGwT.dZO/3pRvYkkAq/TjtVgdkpAqXzqyKGe\', \'e6795e159ea24e0648557dc810da6671\', \'2022-07-01 07:16:04\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`Name`, `Mobile`, `Email`, `Password`, `Unique_id`, `Activation_date`) VALUES (:Name:, :Mobile:, :Email:, :Password:, :Unique_id:, :Activation_date:)', [...], false)
+ 5 APPPATH\Models\RegisterModel.php(7): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Register.php(45): App\Models\RegisterModel->createUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-01 07:21:46 --> Unknown column 'Activation_date' in 'field list'
+CRITICAL - 2022-07-01 07:21:46 --> Unknown column 'Activation_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`Name`, `Mobile`, `Email`, `Password`, `Unique_id`, `Activation_date`) VALUES (\'vipin\', \'3232323232\', \'vipinp923@gmail.com\', \'$2y$10$taNa.WvtmHcqlo32OWvLfO18K8lK3d7vXsXyCO4deVDKtFhoc10qq\', \'4ba05d170a8da20c04f020cdeec6b83c\', \'2022-07-01 07:21:46\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`Name`, `Mobile`, `Email`, `Password`, `Unique_id`, `Activation_date`) VALUES (\'vipin\', \'3232323232\', \'vipinp923@gmail.com\', \'$2y$10$taNa.WvtmHcqlo32OWvLfO18K8lK3d7vXsXyCO4deVDKtFhoc10qq\', \'4ba05d170a8da20c04f020cdeec6b83c\', \'2022-07-01 07:21:46\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`Name`, `Mobile`, `Email`, `Password`, `Unique_id`, `Activation_date`) VALUES (\'vipin\', \'3232323232\', \'vipinp923@gmail.com\', \'$2y$10$taNa.WvtmHcqlo32OWvLfO18K8lK3d7vXsXyCO4deVDKtFhoc10qq\', \'4ba05d170a8da20c04f020cdeec6b83c\', \'2022-07-01 07:21:46\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`Name`, `Mobile`, `Email`, `Password`, `Unique_id`, `Activation_date`) VALUES (:Name:, :Mobile:, :Email:, :Password:, :Unique_id:, :Activation_date:)', [...], false)
+ 5 APPPATH\Models\RegisterModel.php(7): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Register.php(45): App\Models\RegisterModel->createUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
