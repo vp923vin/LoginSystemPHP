@@ -22,7 +22,7 @@
                    
                 <?php if(!session()->has('loggedIn')):?>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url() ?>/register">Register</a>
+                        <a class="nav-link" href="<?= base_url() ?>/register ">Register</a>
                     </li>
                     
                     <li class="nav-item">
@@ -30,7 +30,7 @@
                     </li>
                     <?php else:?>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url() ?>/data">Data</a>
+                        <a class="nav-link" href="<?= base_url() ?>/data/loggedin">Data</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url()?>/data/logout">LogOut</a>
@@ -53,7 +53,7 @@
 
     <div class="container-fluid mt-5 bg-dark">
         <footer class="text-center text-light pt-4 pb-3">
-            Copyright @ Vipin Patel | All rights are reserved.
+            Copyright © 2022, Vipin Patel | All rights are reserved.
         </footer>
     </div>
 
